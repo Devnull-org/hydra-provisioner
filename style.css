@@ -54,18 +54,17 @@ footer img {
   margin: 0 0.5rem;
 }
 
-#current-color-wrapper {
+#status {
+  padding: 1rem 0;
   display: flex;
-  width: min(70vh,70vw);
   align-items: center;
-  justify-content: flex-start;
-  margin: 1rem;
-}
-
-#current-color {
-  margin: 0 1rem;
-  display: inline-block;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 10px;
+  justify-content: center;
+  font-variant: small-caps;
+  font-size: 0.8em;
+  font-family: sans-serif;
+  width: 100%;
+  min-height:50px;
+  margin-top: auto;
+  background: var(--color-black);
+  font-color: var(--color-white);
 }
